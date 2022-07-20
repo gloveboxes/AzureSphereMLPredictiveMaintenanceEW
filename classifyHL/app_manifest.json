@@ -1,0 +1,33 @@
+{
+  "SchemaVersion": 1,
+  "Name": "classify_solution",
+  "ComponentId": "25025d2c-66da-4448-bae1-ac26fcdd3627",
+  "EntryPoint": "/bin/app",
+  "CmdArgs": [
+    "--ScopeID",
+    "REPLACE_WITH_YOUR_ID_SCOPE"
+  ],
+  "Capabilities": {
+    "Gpio": [
+      "$NETWORK_CONNECTED_LED",
+      "$LED_RED",
+      "$LED_BLUE",
+      "$EN",
+      "$NSL",
+      "$PH",
+      "$BUTTON_A",
+      "$BUTTON_B",
+      "$RELAY_1",
+      "$RELAY_2"
+    ],
+    "AllowedApplicationConnections": [
+      "6583cf17-d321-4d72-8283-0b7c5b56442b"
+    ],
+    "AllowedConnections": [
+      "global.azure-devices-provisioning.net",
+      "REPLACE_WITH_YOUR_IOT_HUB_ENDPOINT_URL"
+    ],
+    "DeviceAuthentication": "REPLACE_WITH_YOUR_AZURE_SPHERE_TENANT_ID"
+  },
+  "ApplicationType": "Default"
+}
