@@ -8,7 +8,7 @@ The full solution documentation is maintained on the [project wiki](https://gith
 
 [![The image shows the youtube thumbnail](https://github.com/gloveboxes/AzureSphereClassify/wiki/media/predictive_maintenace_youtube.png)](https://youtu.be/62XKxzRld28)
 
-## Machine Learning Predictive Maintenance rig
+## Machine Learning Predictive Maintenance unit
 
 ![Image shows the Machine Learning Predictive Maintenance rig](img/ml_predictive_maintenance_rig.jpeg)
 
